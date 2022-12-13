@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = Math.floor(Math.random() * 10)
+
+        let tentativa1 = parseInt(prompt('Digite um numero sorteado de 0 a 10'));
+
+        if ( tentativa1 == n)
+            document.write( ' voce acertou o numero era ' + n);
+        
+        else{
+            
+            let tentativa2 = parseInt(prompt('Tente denovo'));
+
+            if (tentativa2 == n)
+            {
+                document.write(' voce acertou irmao o numero era ' + n)
+            }
+
+            else
+            {
+                document.write(' voce errou irmao o numero era ' + n)
+            }
+        }
+    </script>
+</body>
+</html>
